@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="images/calculator.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h1>
+            Copyright &copy; by Abuzar asif
+        </h1>
+    </center>
+    <!-- calculator  -->
+    <div class="container">
+        <div class="input">
+            <input class="textinput " type="text" name="input" id="Cinput">
+            <button class="num0" onclick="getclear()">C</button>
+
+        </div>
+        <div class="subcontainer">
+            <button class="num" onclick="getinput('1')">1</button>
+            <button class="num" onclick="getinput('2')">2</button>
+            <button class="num" onclick="getinput('3')">3</button>
+            <button class="num" onclick="getinput('+')">+</button>
+            <button class="num" onclick="getinput('4')">4</button>
+            <button class="num" onclick="getinput('5')">5</button>
+            <button class="num" onclick="getinput('6')">6</button>
+            <button class="num" onclick="getinput('-')">-</button>
+            <button class="num" onclick="getinput('7')">7</button>
+            <button class="num" onclick="getinput('8')">8</button>
+            <button class="num" onclick="getinput('9')">9</button>
+            <button class="num" onclick="getinput('*')">X</button>
+            <button class="num1" onclick="getinput('0')">0<buttonv>
+            <button class="num1" onclick="getresult()" >=<buttonv>
+            <button class="num1" onclick="getinput('/')" >/<buttonv>
+
+        </div>
+    </div>
+
+
+</body>
+<script src="app.js"></script>
+
+</html>

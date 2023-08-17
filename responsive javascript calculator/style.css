@@ -1,0 +1,91 @@
+.container {
+    font-size: 3rem;
+    margin: 0 auto;
+    width: 65rem;
+    height: 35rem;
+    background-color: black;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.textinput {
+    /* border-radius: 2rem; */
+    margin: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 95%;
+    height: 6rem;
+    display: flex;
+    text-align: center;
+}
+
+button {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.num:hover {
+    color: blueviolet;
+    border-radius: 2rem;
+}
+
+.num1:hover {
+    color: blueviolet;
+    border-radius: 2rem;
+}
+
+.num0:hover {
+    color: blueviolet;
+    border-radius: 2rem;
+}
+
+.textinput:hover {
+    color: blueviolet;
+    border-radius: 2rem;
+}
+
+.num {
+    /* border-radius: 2rem; */
+    width: 22%;
+    height: 4rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.num0 {
+    /* border-radius: 2rem; */
+    width: 95.6%;
+    height: 4rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.num1 {
+    /* border-radius: 2rem; */
+    width: 30%;
+    height: 4rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.subcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 22rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
