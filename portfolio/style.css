@@ -1,0 +1,598 @@
+body {
+    background-color: #100E17;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+nav{
+    
+    position: fixed;
+    top: 0;
+    background-color:#C3484A;
+    right: 0;
+    left: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.bars {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 18px;
+    cursor: pointer;
+    display: none;
+}
+
+.bars span {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+
+
+.navbar ul li a:active {
+    color:#C3484A;
+}
+
+.navbar .menu {
+    margin-right: 12vw;
+}
+
+.navbar .menu a:hover {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #1E1E25;
+    font-weight: bold;
+
+}
+
+.logo {
+    margin-left: 8rem;
+}
+.logo:hover{
+    cursor: pointer;
+}
+
+#intro {
+    margin: 4rem 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#intro .text {
+    width: 50%;
+}
+
+#intro .hello {
+    background-color:#C3484A;
+    font-weight: bold;
+    border-radius: 20px;
+    color: white;
+    border-color:#C3484A;
+    padding: 7px;
+
+}
+
+#intro .person:hover {
+    text-decoration: underline
+}
+
+#green {
+    color:#C3484A;
+    font-style: italic;
+}
+
+#intro .text .details {
+    text-align: justify;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+}
+
+#intro .icons {
+    width: 70%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+#intro .icons i {
+    margin-right: 2rem;
+
+}
+
+#intro .dp {
+    margin: 4rem;
+    width: 50%;
+
+}
+.abuzar{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+
+#intro .dp img {
+    width: 422.5px;
+    height: 500px;
+}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 10rem;
+}
+
+#about .banner {
+
+    width: 50%;
+}
+
+#about .banner img {
+    width: 545px;
+    height: 325px;
+}
+
+#about .text {
+    margin: 4rem;
+    width: 50%;
+}
+
+.about-heading {
+    text-align: center;
+}
+
+.about-heading:hover {
+    text-decoration: underline;
+    color:#C3484A;
+
+}
+
+#about .text .details {
+    text-align: justify;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+}
+
+#about .text .cv {
+    background-color:#C3484A;
+    color: white;
+    border-radius: 30px;
+    border-color:#C3484A;
+    padding: 10px 20px;
+    width: 20;
+    text-align: center;
+
+}
+
+#about .text .cv:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.do {
+    text-align: center;
+}
+
+.do:hover {
+    text-decoration: underline;
+    color:#C3484A;
+}
+
+#services {
+    margin: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#services .card {
+    background-color: #1E1E25;
+    margin: 2rem;
+    width: 33%;
+    padding: 1rem 2rem;
+}
+
+#services .card .heading {
+    color:#C3484A;
+    font-style: italic;
+}
+
+#services .card .details {
+    text-align: justify;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.skills-heading {
+    text-align: center;
+}
+
+.skills-heading:hover {
+    text-decoration: underline;
+    color:#C3484A;
+
+}
+
+#skills {
+    margin: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#skills #bar {
+    background-color:#C3484A;
+    width: 25vw;
+    height: 0.51vw;
+}
+
+#skills #bar,
+#skills label {
+    margin: 2vh 0;
+}
+
+
+
+#background {
+    margin: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#background .education {
+    width: 50%;
+}
+
+#background .education .uni {
+    background-color: #1E1E25;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem
+}
+
+#background .education .uni .details {
+    text-align: justify;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+}
+
+#background .education .uni .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#background #heading {
+    text-align: center;
+}
+
+#background #heading:hover {
+    text-decoration: underline;
+    color:#C3484A;
+
+}
+
+#background .experience {
+    width: 50%;
+}
+
+#background .experience .tiers {
+    background-color: #1E1E25;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+#background .experience .tiers .details {
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+#background .experience .tiers .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.me {
+    text-align: center;
+}
+
+.me:hover {
+    text-decoration: underline;
+    color:#C3484A;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 2rem 10rem;
+}
+
+#contact .card {
+    text-align: center;
+    background-color: #1E1E25;
+    padding: 2rem;
+}
+
+#contact .card button {
+    border: 2px solid#C3484A;
+    border-radius: 50%;
+    background-color: transparent;
+    padding: 1rem;
+}
+
+#contact .card button:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+#contact .card i {
+    color: white;
+
+}
+
+#contact .card i:hover {
+    color:#C3484A;
+
+}
+.got{
+    margin-top: 4rem;
+    color:#C3484A;
+    text-align: center;
+    font-style: italic;
+}
+.got:hover{
+    text-decoration: underline;
+}
+
+#form {
+    margin: 0rem 9rem 4rem 9rem;
+    justify-content: center;
+    display: flex;
+
+}
+
+#form .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form input,
+textarea {
+    background-color: transparent;
+    border-color: #ffffff;
+    padding: 0.75vw;
+    border-radius: 15px;
+
+}
+
+#form input:hover,
+#form textarea:hover {
+    border: 2px solid#C3484A;
+
+}
+
+
+
+#form .send {
+    background-color:#C3484A;
+    border-color:#C3484A;
+    color: white;
+    border-radius: 22px;
+    padding: 4px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+
+#form #half {
+    width: 35%;
+    margin: 10px;
+}
+
+
+#form #full {
+    width: 80%;
+    margin: 10px;
+}
+
+#form button:hover {
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*---Responsiveness---*/
+@media only screen and (max-width: 400px) {
+
+    .navbar .menu ul {
+        display: none;
+    }
+
+    .bars {
+        display: flex;
+    }
+
+    .logo {
+        margin-left: 4rem;
+    }
+
+    #intro {
+        margin: 2rem;
+        flex-direction: column-reverse;
+    }
+
+    #intro .text,
+    #intro .dp {
+        width: 100%;
+    }
+
+    #intro .icons {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+    }
+
+    #intro .dp {
+        margin: 2rem;
+    }
+
+    #intro .dp img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #about {
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+    #about .banner,
+    #about .text {
+        width: 100%;
+    }
+
+    #about .text {
+        margin: 2rem 0;
+    }
+
+    #about .banner img {
+        width: 100%;
+        height: auto;
+    }
+    
+    #services {
+        margin: 2rem;
+        flex-direction: column;
+
+    }
+
+    #services .card {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    #services .card .details {
+        text-align: justify;
+        line-height: 1.5rem;
+        letter-spacing: 1px;
+    }
+
+    #skills {
+        margin: 2rem;
+    }
+
+    #background {
+        margin: 2rem;
+        flex-direction: column;
+    }
+
+    #background .education {
+        width: 100%;
+    }
+
+    #background .education .uni .header {
+        flex-direction: column;
+    }
+
+    #background .experience {
+        width: 100%;
+    }
+
+    #background .experience .tiers .header {
+        flex-direction: column;
+    }
+
+    #background .education .uni {
+        padding: 2rem;
+        margin-bottom: 2rem;
+        margin-right: 0;
+    }
+
+    #background .experience .tiers {
+       
+        padding: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 0;
+    }
+
+    #contact {
+        flex-direction: column;
+        margin: 2rem 4rem;
+    }
+    
+    #contact .card {
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    #contact .card button {
+        border: 2px solid#C3484A;
+        border-radius: 50%;
+        background-color: transparent;
+        padding: 1rem;
+    }
+    .got{
+        margin-top: 2rem;
+    }
+    #form {
+        margin: 2rem 4rem;
+    }    
+    
+    #form input,
+    textarea {
+        border-radius: 10px;
+    } 
+    
+    #form .send {
+        border-radius: 15px;
+        padding: 2px 30px;
+        width: 100%;
+    }
+    
+    #form #half {
+        width: 80%;
+        margin: 7px;
+    }
+    
+    
+    #form #full {
+        width: 80%;
+        margin: 7px;
+    }
+}
